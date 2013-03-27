@@ -7,7 +7,6 @@ capybara-*.html
 .rspec
 .rvmrc
 /.bundle
-/config/mongoid.yml
 /vendor/bundle
 /vendor/plugins
 /app/assets/images/tmp-*

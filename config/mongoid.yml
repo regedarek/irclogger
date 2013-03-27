@@ -1,0 +1,22 @@
+development:   
+  sessions:
+    default:
+      database: "heroku_app14105653"
+      username: "heroku_app14105653"
+      password: "2cba0l84ih60l2do9qjqm3c7rp"
+      hosts:
+        - "ds053877.mongolab.com:53877"
+      options:
+        skip_version_check: true
+        safe: true
+production:   
+  sessions:
+    default:
+      database: "heroku_app14105653"
+      username: "heroku_app14105653"
+      password: "2cba0l84ih60l2do9qjqm3c7rp"
+      hosts:
+        - "ds053877.mongolab.com:53877"
+      options:
+        skip_version_check: true
+        safe: true

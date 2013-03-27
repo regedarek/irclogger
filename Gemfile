@@ -17,7 +17,3 @@ group :development, :test, :cucumber do
   gem 'rspec-rails'
   gem 'mongoid-rspec'
 end
-
-group :production do
-  gem 'passenger'
-end
