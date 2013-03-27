@@ -1,5 +1,6 @@
 class LogsController < ApplicationController
   def hello
+    @logs = Log.all
     return render(partial: "logs/hello") if request.headers["X-PJAX"]
   end
 
