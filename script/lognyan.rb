@@ -3,10 +3,10 @@ require 'cinch'
 
 bot = Cinch::Bot.new do
   configure do |c|
-    c.server = "xxx"
-    c.password = "xxxx"
-    c.channels = ["#xxx"]
-    c.nick     = "lognyan"
+    c.server = "irc.freenode.net"
+    c.password = ""
+    c.channels = ["#dino-rb"]
+    c.nick     = "dino-logger"
     #c.plugins.plugins = [Hello]
   end
 
