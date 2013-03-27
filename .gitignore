@@ -1,6 +1,7 @@
 *.rbc
 *.sassc
 .sass-cache
+.rbenv-gemsets
 .project
 capybara-*.html
 .rspec
